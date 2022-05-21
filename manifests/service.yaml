@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: react-application
+  name: react-app
   labels:
     run: react-application
 spec:
