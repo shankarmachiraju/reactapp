@@ -5,7 +5,7 @@ node(any) {
    checkout scm
 }
  stage('Load') {
-  code = load 'example.groovy'
+  code = load 'script.example.groovy'
 }
  stage('Execute') {
   code.example1()
